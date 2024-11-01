@@ -1,0 +1,339 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Cart Donations by Circle Fund\n"
+"POT-Creation-Date: 2017-01-11 23:39+0100\n"
+"PO-Revision-Date: 2017-01-11 23:39+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce_cart_donations.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: woocommerce_cart_donations.php:31 woocommerce_cart_donations.php:428
+msgid "Remove campaign"
+msgstr ""
+
+#: woocommerce_cart_donations.php:32 woocommerce_cart_donations.php:428
+msgid "Enter campaign name"
+msgstr ""
+
+#: woocommerce_cart_donations.php:33 woocommerce_cart_donations.php:273
+msgid "Enter predefined value"
+msgstr ""
+
+#: woocommerce_cart_donations.php:34
+msgid "Remove predefined value"
+msgstr ""
+
+#: woocommerce_cart_donations.php:35
+msgid "Order"
+msgstr ""
+
+#: woocommerce_cart_donations.php:36
+msgid "No orders found"
+msgstr ""
+
+#: woocommerce_cart_donations.php:175
+msgid "Donation options page"
+msgstr ""
+
+#: woocommerce_cart_donations.php:179
+msgid "Settings"
+msgstr ""
+
+#: woocommerce_cart_donations.php:180
+msgid "Campaign"
+msgstr ""
+
+#: woocommerce_cart_donations.php:181
+msgid "Reports"
+msgstr ""
+
+#: woocommerce_cart_donations.php:192
+msgid "Donation Product"
+msgstr ""
+
+#: woocommerce_cart_donations.php:194
+msgid "Select existing product"
+msgstr ""
+
+#: woocommerce_cart_donations.php:221
+msgid ""
+"A non taxable,not shippable product needs to exists in woocommerce before "
+"using donations"
+msgstr ""
+
+#: woocommerce_cart_donations.php:229 woocommerce_cart_donations.php:310
+#: woocommerce_cart_donations.php:452
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce_cart_donations.php:236
+msgid "New donation product"
+msgstr ""
+
+#: woocommerce_cart_donations.php:239
+msgid "New product title"
+msgstr ""
+
+#: woocommerce_cart_donations.php:240
+msgid "Create Product"
+msgstr ""
+
+#: woocommerce_cart_donations.php:241
+msgid ""
+"A non taxable,not shippable product will be created and you can select it on "
+"the Donation Product  above afterward. <br> Keep in mind that the new "
+"product title will be visible on the cart, the checkout page and invoice so "
+"name it something like \"DONATIONS\" ."
+msgstr ""
+
+#: woocommerce_cart_donations.php:249
+msgid "Donation field"
+msgstr ""
+
+#: woocommerce_cart_donations.php:254
+msgid "Display as"
+msgstr ""
+
+#: woocommerce_cart_donations.php:258
+msgid "Let the customer choose how much to donate"
+msgstr ""
+
+#: woocommerce_cart_donations.php:259
+msgid "Dropdown with predefined values"
+msgstr ""
+
+#: woocommerce_cart_donations.php:262
+msgid ""
+"Select how the donation field will be displayed. Free value input form or as "
+"dropdown of predefined values"
+msgstr ""
+
+#: woocommerce_cart_donations.php:273
+msgid "Remove value"
+msgstr ""
+
+#: woocommerce_cart_donations.php:285
+msgid "Add new value"
+msgstr ""
+
+#: woocommerce_cart_donations.php:292
+msgid "Show currency symbol"
+msgstr ""
+
+#: woocommerce_cart_donations.php:296 woocommerce_cart_donations.php:408
+msgid "No"
+msgstr ""
+
+#: woocommerce_cart_donations.php:297
+msgid "Yes, before the field"
+msgstr ""
+
+#: woocommerce_cart_donations.php:298
+msgid "Yes, after the field"
+msgstr ""
+
+#: woocommerce_cart_donations.php:301
+msgid "Should the currency symbol be visible. If yes , select where"
+msgstr ""
+
+#: woocommerce_cart_donations.php:314
+msgid "String translations"
+msgstr ""
+
+#: woocommerce_cart_donations.php:322
+msgid "Use custom text"
+msgstr ""
+
+#: woocommerce_cart_donations.php:325
+msgid "No, use default strings"
+msgstr ""
+
+#: woocommerce_cart_donations.php:326
+msgid "Yes ,I want to use the texts below instead of default text of plugin"
+msgstr ""
+
+#: woocommerce_cart_donations.php:328
+msgid ""
+"Select \"Yes\" if you want to use the strings below instead of default "
+"plugin strings . Supports HTML"
+msgstr ""
+
+#: woocommerce_cart_donations.php:333
+msgid "Single product"
+msgstr ""
+
+#: woocommerce_cart_donations.php:336
+msgid ""
+"Text \"Enter the amount you wish to donate\" located on single product "
+"page . Supports HTML"
+msgstr ""
+
+#: woocommerce_cart_donations.php:341
+msgid "Single product confirmation"
+msgstr ""
+
+#: woocommerce_cart_donations.php:344
+msgid ""
+"Text \"Donation added\" located on single product page . Shown once the "
+"customer adds the donation . Supports HTML "
+msgstr ""
+
+#: woocommerce_cart_donations.php:349
+msgid "Cart Text"
+msgstr ""
+
+#: woocommerce_cart_donations.php:352
+msgid ""
+"Text \"Add a donation to your order\" located on cart before \"Add Donation"
+"\" . Supports HTML"
+msgstr ""
+
+#: woocommerce_cart_donations.php:357
+msgid "Cart Button"
+msgstr ""
+
+#: woocommerce_cart_donations.php:360
+msgid "Text for button \"Add Donation\" located on cart . Supports HTML "
+msgstr ""
+
+#: woocommerce_cart_donations.php:365
+msgid "Checkout Title Text"
+msgstr ""
+
+#: woocommerce_cart_donations.php:368
+msgid ""
+"Add a donation to your order\" header text located on checkout . Shown on "
+"checkout when user has not added a donation . Supports HTML"
+msgstr ""
+
+#: woocommerce_cart_donations.php:373
+msgid "Checkout  Text"
+msgstr ""
+
+#: woocommerce_cart_donations.php:376
+msgid ""
+"If you wish to add a donation you can do so on the \" text located on "
+"checkout . Shown on checkout when user has not added a donation . Supports "
+"HTML "
+msgstr ""
+
+#: woocommerce_cart_donations.php:381
+msgid "Select Campaign Text"
+msgstr ""
+
+#: woocommerce_cart_donations.php:384
+msgid "Text shown on the top of the dropdown of campaigns"
+msgstr ""
+
+#: woocommerce_cart_donations.php:393
+msgid "Save translations"
+msgstr ""
+
+#: woocommerce_cart_donations.php:404
+msgid "Enable Campaigns"
+msgstr ""
+
+#: woocommerce_cart_donations.php:409
+msgid "Yes"
+msgstr ""
+
+#: woocommerce_cart_donations.php:412
+msgid ""
+"If enabled the customer can select for which campaign-cause the donation "
+"needs to go"
+msgstr ""
+
+#: woocommerce_cart_donations.php:418
+msgid "Campaigns"
+msgstr ""
+
+#: woocommerce_cart_donations.php:440
+msgid "Add new campaign"
+msgstr ""
+
+#: woocommerce_cart_donations.php:442
+msgid "Add or remove campaigns"
+msgstr ""
+
+#: woocommerce_cart_donations.php:461
+msgid "All donations"
+msgstr ""
+
+#: woocommerce_cart_donations.php:473
+msgid "Search"
+msgstr ""
+
+#: woocommerce_cart_donations.php:572 woocommerce_cart_donations.php:1105
+msgid "Add a donation to your order"
+msgstr ""
+
+#: woocommerce_cart_donations.php:609 woocommerce_cart_donations.php:898
+msgid "Select campaign"
+msgstr ""
+
+#: woocommerce_cart_donations.php:624
+msgid "Add Donation"
+msgstr ""
+
+#: woocommerce_cart_donations.php:682 woocommerce_cart_donations.php:1142
+#, php-format
+msgid "Campaign %s"
+msgstr ""
+
+#: woocommerce_cart_donations.php:826 woocommerce_cart_donations.php:955
+msgid "Donation added"
+msgstr ""
+
+#: woocommerce_cart_donations.php:835
+msgid "Enter the amount you wish to donate"
+msgstr ""
+
+#: woocommerce_cart_donations.php:924
+#, php-format
+msgid "Donation added . Check it on the  <a href=\"%s\">cart page</a>"
+msgstr ""
+
+#: woocommerce_cart_donations.php:1037
+#, php-format
+msgid "%s <br> Campaign %s"
+msgstr ""
+
+#: woocommerce_cart_donations.php:1114
+#, php-format
+msgid ""
+"If you wish to add a donation you can do so on the <a href=\"%s\">cart page</"
+"a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Donations Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://circlefund.org/wordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin adds a donation field on the cart page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Albdesign"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://circlefund.org/wordpress"
+msgstr ""

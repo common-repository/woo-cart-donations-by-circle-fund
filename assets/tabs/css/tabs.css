@@ -1,0 +1,246 @@
+.circle_woo_tabs.container > section {
+	padding: 1em 0;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 30em) {
+	.circle_woo_tabs.container > section {
+		padding: 3em 0;
+	}
+	
+}
+
+
+/* Default tab style */
+
+
+.circle_woo_tabs {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+	font-weight: 300;
+	font-size: 1.25em;
+}
+
+/* Nav */
+.circle_woo_tabs nav {
+	text-align: center;
+}
+
+.circle_woo_tabs nav ul {
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	margin: 0 auto;
+	padding: 0;
+	
+	list-style: none;
+	-ms-box-orient: horizontal;
+	-ms-box-pack: center;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+.circle_woo_tabs nav ul li {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin: 0;
+	text-align: center;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.circle_woo_tabs nav a {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 2.5;
+}
+
+.circle_woo_tabs nav a span {
+	vertical-align: middle;
+	font-size: 0.75em;
+}
+
+.circle_woo_tabs nav li.tab-current a {
+	color: #74777b;
+}
+
+.circle_woo_tabs nav a:focus {
+	outline: none;
+}
+
+
+/* Content */
+.circle_woo_tabs .content-wrap {
+	position: relative;
+}
+
+.circle_woo_tabs .content-wrap section {
+	display: none;
+	margin: 0 auto;
+	padding: 1em;
+
+}
+
+.circle_woo_tabs .content-wrap section.content-current {
+	display: block;
+}
+
+.circle_woo_tabs .content-wrap section p {
+	margin: 0;
+	
+	padding-bottom:0.5em;
+
+	font-size: 1em;
+	line-height: 1;
+}
+
+/* Fallback */
+.no-js .content-wrap section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+.no-flexbox nav ul {
+	display: block;
+}
+
+.no-flexbox nav ul li {
+	min-width: 15%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 58em) {
+	.circle_woo_tabs  .tabs nav a.icon span {
+		display: none;
+	}
+	.circle_woo_tabs  .tabs nav a:before {
+		margin-right: 0;
+	}
+}
+
+
+.circle_woo_tabs input[type="text"],
+.circle_woo_tabs select,
+.circle_woo_tabs textarea{
+	padding:10px;
+	height: initial;
+	color:#292929;
+	width:30%;
+
+}
+
+/* Individual tab styles */
+
+
+
+/*****************************/
+/* Flip */
+/*****************************/
+
+.circle_woo_tabs  .tabs-style-flip , 
+.circle_woo_wp_recaptcha_submit_container {
+	max-width: 98%;
+	margin:0 auto;
+}
+
+.circle_woo_tabs .tabs-style-flip nav a {
+	padding: 0.5em 0;
+	color: #0073aa;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+	background-color: #dedede;
+    text-decoration: none;
+	
+}
+
+
+
+.circle_woo_tabs .tabs-style-flip nav a:hover,
+.circle_woo_tabs .tabs-style-flip nav a:focus,
+.circle_woo_tabs .tabs-style-flip nav li.tab-current a {
+	color: #74777b;
+	background-color: #fff;
+}
+
+.circle_woo_tabs .tabs-style-flip nav a span {
+	text-transform: uppercase;
+
+
+	text-decoration: none;
+	font-size:1.3em;
+}
+
+.circle_woo_tabs .tabs-style-flip nav a::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-color: #f0f0f0;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s, background-color 0.3s;
+	transition: transform 0.3s, background-color 0.3s;
+	-webkit-transform: perspective(900px) rotate3d(1,0,0,90deg);
+	transform: perspective(900px) rotate3d(1,0,0,90deg);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-perspective-origin: 50% 100%;
+	perspective-origin: 50% 100%;
+}
+
+.circle_woo_tabs .tabs-style-flip nav li.tab-current a::after {
+	background-color: #fff;
+	-webkit-transform: perspective(900px) rotate3d(1,0,0,0deg);
+	transform: perspective(900px) rotate3d(1,0,0,0deg);
+}
+
+.circle_woo_tabs .tabs-style-flip .content-wrap {
+	background: #fff;
+}
+
+.circle_woo_tabs nav a{
+    -webkit-box-shadow: 0 0 0 0px #5b9dd9,0 0 0px 0px rgba(30,140,190,0);
+    box-shadow: 0 0 0 0px #5b9dd9,0 0 0px 0px rgba(30,140,190,0);
+}
+
+.circle_woo_tabs  .postbox {
+	border:0;
+	box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+.circle_woo_tabs .content-wrap section p.description{
+	font-style: normal;
+    margin-top: 5px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.circle_woo_tabs.container .forminp, 
+.circle_woo_tabs.container .button-primary,
+.circle_woo-wc-donation-reports-results table td{
+	font-weight: 400;
+}
+
+.circle_woo_tabs.container .button-primary{
+	padding: 6px 20px;
+    height: initial;
+}
